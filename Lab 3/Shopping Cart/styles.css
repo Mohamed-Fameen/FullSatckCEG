@@ -1,0 +1,35 @@
+.containeritem {
+    width: 100%;
+    background-color: ghostwhite;
+    display: inline;
+    border: 2px solid;
+    float: left;
+    
+}
+
+.containeritem  img {
+    width: 25%;
+    height: fit-content ;
+    border: 2px solid black;
+    margin: 10px;
+    float: left;
+    padding: auto;
+    
+}
+.containeritem  h3 {
+    width: 70%;
+    float: left;
+    
+}
+
+.containeritem  p {
+   font-weight: 100; 
+   color: grey;
+}
+
+.containeritem  p {
+    font-weight: 100; 
+    color: grey;
+ }
+
+
