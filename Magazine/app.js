@@ -1,21 +1,20 @@
 let word = document.getElementById("word")
 let action = document.getElementById("btn")
-console.log(word.value,action.value)
+console.log(word.value)
 
-function exclusive(){
-    return "un"+ word;
+function exclusive() {
+    document.getElementById("out").innerHTML = "un" + word.value;
+   
 }
 
-function strengthen(){
-    return "double" + word;
-}
-
-function emphasize(){
-    return "plusdouble" + word;
-}
-
-action.addEventListener('click', (event) => {
-    event.preventDefault()
+function strengthen() {
+    document.getElementById("out").innerHTML = "double" + word.value;
     
-    document.getElementById("out").innerHTML = "whjas";
-})
+}
+
+function emphasize() {
+    document.getElementById("out").innerHTML = "plusdouble" + word.value;
+    
+}
+
+

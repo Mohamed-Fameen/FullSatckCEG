@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> Pizza </title>
+    </head>
+
+    <body>
+        <form onsubmit = "estimateCost()" id="pizzaform">
+            <select id="name">
+                <option>Plain thin-crust pizzas</option>
+            </select>
+            <br>
+            <select id="size">
+                <option value="Small">Small - 99</option>
+                <option value="Medium">Medium - 199</option>
+                <option value="Large">Large - 399</option>
+            </select>
+            <br>
+            <input type="checkbox" value="deep pan" id="deeppan"/>Deep Pan <br>
+            <label>Extra Toppings</label><br>
+            <input type="checkbox"  id="mushrooms" value="mushrooms" name="toppings"/> Mushrooms
+            <input type="checkbox" id="olives" value="olives" name="toppings"/> Olives
+            <input type="checkbox"  id="finernails" value="fingernail" name="toppings"/> Fingrnail
+            <input type="checkbox" id="spicy beef" value="spicy beef" name="toppings"/> Spicy Beef
+
+            <input type="submit" value="Submit" id="submitform">
+        </form>
+        <p id="cost"></p>
+        <script src="app.js"></script>
+    </body>
+</html>
